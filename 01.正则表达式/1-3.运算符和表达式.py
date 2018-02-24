@@ -102,18 +102,58 @@ print(b)
 
 # 小于
 
+a=13
+b=3
+print(b<a)
+
+
 # 大于
+
+a=3
+b=13
+print(b>a)
 
 # 等于
 
+a=3
+b=3
+
+print(a==b)
+
+
 # 大于等于
+
+a=4
+b=5
+print(b>=a)
+
 
 # 小于等于
 
+a=4
+b=3
+print(b<=a)
+
 # 不等于
+a=4
+b=3
+print(a!=b)
 
 # not（布尔“非”）
+a=4
+b=3
+print(not(a>b))
 
 # or (布尔“或”)
 
+a=4
+b=3
+
+print(a>b or a==3)
+
 # and (布尔“与”)
+
+a=4
+b=3
+
+print(a>b and a==3)
